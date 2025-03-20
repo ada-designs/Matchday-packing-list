@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Matchday Packing List 
+For this project, I developed Matchday Packing List, a React app designed to help athletes efficiently organize and pack everything they need before a game. The app ensures that all essential items are accounted for, helping users stay focused on their performance rather than worrying about missing gear.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Key Features & Enhancements:
+▶ Adding Items – Easily add new items to the packing list, ensuring everything needed for matchday is included.
 
-## Available Scripts
+▶ Deleting Items Individually – Remove specific items from the list with a single click, keeping the packing list organized and clutter-free.
 
-In the project directory, you can run:
+▶ Custom Inputs & Quantity Form – Users can enter item names and specify amounts, allowing for precise packing (e.g., "2 water bottles" or "3 pairs of socks").
 
-### `npm start`
+▶ Sorting Items – Items can be sorted based on their name, description, or whether they are packed, making it easy to find and manage them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+▶ Packing Status – Mark items as packed or unpacked with a simple toggle, helping users track their progress and avoid leaving anything behind.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+▶ Deleting All Items at Once – A reset button allows users to clear the entire list quickly, making it easy to start fresh before the next game.
 
-### `npm test`
+Key Skills Developed:
+▶ State Management – Used React’s useState hook to dynamically update the packing list, ensuring smooth interaction and reactivity.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+▶ Array & Object Manipulation – Worked extensively with JavaScript arrays and objects to store, update, and remove packing list items efficiently.
 
-### `npm run build`
+▶ Sorting Techniques – Implemented sorting functionality using array methods such as .sort(), allowing users to organize their list based on name, description, or packing status.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+▶ Array Methods – Leveraged essential array methods like .map(), .filter(), and .find() to handle dynamic rendering, searching, and item removal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+▶ Event Handling – Used event listeners and React's synthetic events to manage user interactions, such as button clicks and form submissions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+▶ Conditional Rendering – Applied conditional logic to dynamically display UI elements based on the list’s state, such as showing a "No items added" message when the list is empty.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project strengthened my fundamental React knowledge, particularly in state management, data manipulation, sorting, and interactive list handling. 
