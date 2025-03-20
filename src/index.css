@@ -1,13 +1,155 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Boldonse", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..800;1,100..900&family=Permanent+Marker&display=swap");
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: lightblue;
+  height: 100vh;
+  font-family: "Montserrat";
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 224, 9);
+  color: white;
+
+  height: 30vh;
+}
+
+.title h1 {
+  font-family: "Permanent Marker", sans-serif;
+  letter-spacing: 2px;
+  font-size: 45px;
+}
+
+/* ------------------------- */
+
+.form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(132, 249, 130);
+}
+
+.form h3 {
+  margin-right: 40px;
+}
+
+.form select {
+  width: 70px;
+  margin-right: 20px;
+  border-radius: 40px;
+  height: 30px;
+}
+
+.form input {
+  margin-right: 20px;
+  border-radius: 40px;
+  height: 30px;
+  padding-left: 10px;
+  border: none;
+}
+
+.form button {
+  padding: 0.3rem 1rem;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  background-color: rgb(244, 11, 116);
+  font-weight: 600;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* ------------------------- */
+
+.packed {
+  text-decoration: line-through;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(0, 69, 13);
+  height: 60vh;
+  color: white;
+  padding: 3rem;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.actions select,
+.actions button {
+  background-color: rgb(132, 249, 130);
+  color: black;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: flex-start;
+  row-gap: 50px;
+  list-style: none;
+}
+
+li {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #00000000;
+  color: rgb(222, 255, 36);
+  font-size: 20px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 22px;
+  background-color: rgb(244, 11, 116);
+  color: white;
+  margin-top: 0;
+  font-style: italic;
 }
